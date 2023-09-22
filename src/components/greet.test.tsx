@@ -17,3 +17,15 @@ test("greet render with a name", () => {
   const textElement = screen.getByText("Hello Nihal");
   expect(textElement).toBeInTheDocument();
 });
+
+// test.only("greet render with a name", () => {
+//   render(<Greet name="Nihal" />);
+//   const textElement = screen.getByText("Hello Nihal");
+//   expect(textElement).toBeInTheDocument();
+// });
+
+// test.skip("greet render with a name", () => {
+//   render(<Greet name="Nihal" />);
+//   const textElement = screen.getByText("Hello Nihal");
+//   expect(textElement).toBeInTheDocument();
+// });
