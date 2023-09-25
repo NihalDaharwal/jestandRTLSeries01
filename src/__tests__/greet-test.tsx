@@ -2,7 +2,7 @@
 //it should render followed by the name
 
 import { render, screen } from "@testing-library/react";
-import { Greet } from "./greet";
+import { Greet } from "../components/greet";
 
 test("greet rendered correctly", () => {
   render(<Greet />);

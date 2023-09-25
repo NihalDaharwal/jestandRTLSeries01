@@ -1,0 +1,21 @@
+// group test
+
+method describe(name,fn)
+
+the first argument is group name
+the second argument is function that contains expectation test
+
+describe.only
+describe.skip  also be used globally
+describe method can be nested
+
+
+.....................................
+
+// file convention
+file with .test.js or test.jsx suffix
+files with .specs.js or specs.tsx suffix
+files with .js or .tsx in _test_ folders.
+
+recommendation  is to always put your test nest to the code they are testing so that relative
+imports are shorter
