@@ -19,3 +19,24 @@ files with .js or .tsx in _test_ folders.
 
 recommendation  is to always put your test nest to the code they are testing so that relative
 imports are shorter
+
+
+//code coverage
+a metric that can help you understand how much software code is tested
+
+1. statement coverage:
+how many of the statements in the software  code have been executed
+
+2.Branches coverage:
+ how many of the branches of the control structure (if statement for instance ) have been executed 
+
+3.function coverage :
+how many of defined HAVE BEEN called and finally
+
+4. Linear coverage:
+how many of lines of source code have been tested
+
+add this line in packet.json
+ "coverage": "npm test --coverage --watchAll"
+ if do not work try this 
+ "coverage": " npm run test -- --coverage --watchAll"
