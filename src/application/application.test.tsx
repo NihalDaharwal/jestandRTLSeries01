@@ -3,7 +3,6 @@ import { Application } from "./application";
 
 describe("Application", () => {
   test("renders correctly", () => {
-    render(<Application />);
     /** getByRole option */
 
     const pageHeading = screen.getByRole("heading", {
@@ -15,7 +14,6 @@ describe("Application", () => {
     const sectionHeading = screen.getByRole("heading", {
       level: 2,
       // name: "Section 1",
-      
     });
     expect(sectionHeading).toBeInTheDocument();
 
