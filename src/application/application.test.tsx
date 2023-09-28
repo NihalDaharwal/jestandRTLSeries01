@@ -2,6 +2,8 @@ import { render, screen } from "@testing-library/react";
 import { Application } from "./application";
 
 describe("Application", () => {
+  render(<Application />);
+
   test("renders correctly", () => {
     /** getByRole option */
 
@@ -49,5 +51,9 @@ describe("Application", () => {
     /** getByText */
     const paragraphElement = screen.getByText("All fields are mandatory");
     expect(paragraphElement).toBeInTheDocument();
+
+    /** getByDisplayValue */
+    const nameElement4 = screen.getByDisplayValue("Nihal");
+    expect(nameElement4).toBeInTheDocument();
   });
 });
