@@ -11,6 +11,7 @@ describe("Skills", () => {
     expect(listElement).toBeInTheDocument();
   });
 
+  //getAllByRole
   test("renders  a list of skils", () => {
     render(<Skills skills={skills} />);
 
@@ -27,6 +28,7 @@ describe("Skills", () => {
     expect(loginButton).toBeInTheDocument();
   });
 
+  //queryByRole
   test("start learning button is not rendered", () => {
     render(<Skills skills={skills} />);
 
