@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { Application } from "./application/application";
+import { Application } from "./components/application/application";
 
 function App() {
   return <Application />;
