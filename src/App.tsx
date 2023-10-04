@@ -7,7 +7,7 @@ import { Skills } from "./components/skills/skills";
 function App() {
   return (
     <>
-      {/* <Application />; */}
+      <Application />;
       <Skills skills={[]} />
     </>
   );
